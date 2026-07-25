@@ -32,7 +32,7 @@ header, main, footer {
 
 header {
   background-color: var(--cor-destaque2);
-  border: 1px solid var(--cor-secundaria);
+  border: 1px solid var(--cor-destaque1);
   padding: 20px 40px;
   display: flex;
   justify-content: space-between;
@@ -80,7 +80,6 @@ footer p {
   font-size: 15px;
   font-weight: bold;
   margin-left: 70px;
-  color: var(--cor-destaque1);
   font-family: var(--fonte-body);
 }
 
