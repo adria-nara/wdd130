@@ -1,9 +1,9 @@
 :root {
-    --cor-primaria: #fff; 
-    --cor-secundaria: #9e7376; 
-    --cor-destaque1: #8d8585; 
-    --cor-destaque2: #424d47; 
-    --cor-destaque3: #4c9e72;
+     --cor-primaria: #fff; 
+    --cor-secundaria: #666; 
+    --cor-destaque1: #333; 
+    --cor-destaque2: #a0a0a0; 
+    --cor-destaque3: #c8c8c8;
     --fonte-titulo: "Times Nem Roman", "Georgia", serif;
     --fonte-body: Arial, Helvetica, sans-serif;
 }
