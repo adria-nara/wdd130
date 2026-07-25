@@ -1,50 +1,108 @@
 :root {
-    --cor-primaria: #70994e; 
-    --cor-secundaria: #070bf5;
-    --cor-destaque1: #264653;
-    --cor-destaque2: #e9c46a;
-    --fonte-titulo:"Times New Roman","Gergia",serif;
-    --fonte-boby: Arial, Helvetica, sans-serif;
+    --cor-primaria: #fff; 
+    --cor-secundaria: #633939; 
+    --cor-destaque1: #333; 
+    --cor-destaque2: #195e39; 
+    --cor-destaque3: #60a882;
+    --fonte-titulo: "Times Nem Roman", "Georgia", serif;
+    --fonte-body: Arial, Helvetica, sans-serif;
 }
 
-header {
-    background-color: var(--cor-primaria);
-    color: var(--cor-destaque2);
-}
 
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
 }
 
 body {
-    font-family: var(--fonte-boby);
-    color: var(--cor-destaque1);
+  background-color: var(--cor-primaria);
+  color: var(--cor-destaque1);
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 20px;
 }
 
 header, main, footer {
-    width: 840px;
+    width: 820px;
     margin: 0 auto;
 }
 
-h1, h2 {
-    font-family: var(--fonte-titulo);
+header {
+  background-color: var(--cor-destaque2);
+  border: 1px solid var(--cor-secundaria);
+  padding: 20px 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header img {
+  width: 120px;
+  height: auto;
+}
+
+header nav {
+  display: flex;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    gap: 1.5rem;
+    color: var(--cor-destaque1);
+    flex-wrap: wrap;
+    max-width: 840px;
+    margin: 0 auto;
+    padding: 10px 40px;
+}
+
+nav a {
+    display: block;
     color: var(--cor-primaria);
     text-align: center;
-}
-
-nav, p, section {
-    margin: 16px;
-    padding: 8px;
-}
-
-.footer a {
+    padding: .2rem;
     text-decoration: none;
+    font-weight: 700;
 }
+
+footer {
+  background-color: var(--cor-destaque2);
+  border: 1px solid var(--cor-destaque1);
+  padding: 10px 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+footer p {
+  font-size: 15px;
+  font-weight: bold;
+  margin-left: 70px;
+  color: var(--cor-primaria);
+}
+
+footer img {
+  width: 30px;
+  height: auto;
+  font-weight: bold; 
+}
+
+/* Seletores de Classe */
 
 .hero {
-    position: relative;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;    
+  justify-content: center; 
+  width: 100%;
+  max-width: 900px; 
+  margin: 0 auto;
+  overflow: hidden;
+  box-sizing: border-box;
 }
 
 .hero img {
@@ -56,26 +114,102 @@ nav, p, section {
 .hero h1 {
     position: absolute;
     top: 20px;
-    width: 100%;
-    padding: 16px;
+    padding: 15px;
+    width: 50%;
     text-align: center;
+    color: #889c8f;
     opacity: 0.7;
-    background-color: var(--cor-destaque1);
-    color: var(--cor-secundaria);
-}
+} 
 
 .hero article {
     position: absolute;
-    top: 100px;
-    width: 100%;
-    padding: 16px;
-    text-align: center;
+    font-size: 14px;
+    top: 200px;
+    width: 700px;
+    height: auto;
+    padding: 20px;
+    text-align: left;
+    background-color: var(--cor-primaria);
     opacity: 0.7;
-    background-color: var(--cor-destaque1);
-    color: #fff;
+    color: #000; 
 }
 
 .hero article img {
     float: right;
     width: 125px;
+    margin-right: 5px;
+    border: #000;
+}
+
+.historia {
+  margin-top: 20px;
+  background-color: var(--cor-destaque3);
+  border: 1px solid var(--cor-secundaria);
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+.historia h2 {
+  font-size: 24px;
+  margin-top: 10px;
+}
+
+.historia-paragrafo {
+  display: grid;
+  grid-template-columns: 2fr 1fr 2fr;
+  gap:5px;
+  align-items: center;
+  
+}
+
+.historia-paragrafo p {
+  text-align: left;
+  font-size: 13px;
+  line-height: 1.4;
+  padding:15px;
+
+}
+
+.historia-paragrafo img {
+  height: 130px;
+  background-color: #000;
+  color: var(--cor-primaria);
+}
+
+.folder {
+  margin-top: 20px;
+  padding: 10px;
+  border: 1px solid var(--cor-secundaria);
+  
+}
+.folder-figuras {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 15px;
+  
+}
+
+.folder h2 {
+  font-size: 24px;
+  margin-top: 10px;
+  text-align: center;
+  margin-bottom: 10px;
+  
+}
+
+.folder-figuras img {
+  width: 130px;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 10px;
+}
+
+.folder-figuras figcaption {
+    font-size: 14px;
+    text-align: center;
+}
+
+.socialmedia {
+  display: flex;
+  gap: 10px;
 }
