@@ -52,7 +52,6 @@ nav ul {
     list-style-type: none;
     display: flex;
     gap: 1.5rem;
-    color: var(--cor-destaque1);
     flex-wrap: wrap;
     max-width: 840px;
     margin: 0 auto;
@@ -61,7 +60,7 @@ nav ul {
 
 nav a {
     display: block;
-    color: var(--cor-primaria);
+    color: var(--cor-destaque1);
     text-align: center;
     padding: .2rem;
     text-decoration: none;
@@ -118,7 +117,7 @@ footer img {
     padding: 15px;
     width: 50%;
     text-align: center;
-    color: #84a38f;
+    color: var(--cor-primaria);
     opacity: 0.7;
     font-family: var(--fonte-titulo);
 } 
