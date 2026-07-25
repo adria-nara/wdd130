@@ -82,6 +82,7 @@ footer p {
   font-weight: bold;
   margin-left: 70px;
   color: var(--cor-primaria);
+  font-family: var(--fonte-body);
 }
 
 footer img {
@@ -119,6 +120,7 @@ footer img {
     text-align: center;
     color: #889c8f;
     opacity: 0.7;
+    font-family: var(--fonte-titulo);
 } 
 
 .hero article {
@@ -132,6 +134,7 @@ footer img {
     background-color: var(--cor-primaria);
     opacity: 0.7;
     color: #000; 
+    font-family: var(--fonte-body);
 }
 
 .hero article img {
