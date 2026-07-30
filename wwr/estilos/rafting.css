@@ -34,7 +34,8 @@ header {
   background-color: var(--cor-destaque2);
   border: 1px solid var(--cor-destaque1);
   padding: 20px 40px;
-  display: flex;
+  display: grid;
+  grid-template-columns: 200px 10fr;
   justify-content: space-between;
   align-items: center;
 }
@@ -72,14 +73,14 @@ footer {
   border: 1px solid var(--cor-destaque1);
   padding: 10px 30px;
   display: flex;
-  justify-content: space-between;
-  align-items: center;
+  justify-content: right;
+   align-items: center;
 }
 
 footer p {
   font-size: 15px;
   font-weight: bold;
-  margin-left: 70px;
+  margin-right: 20px;
   font-family: var(--fonte-body);
 }
 
