@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fale Conosco - Rafting Excursões</title>
+    <meta name="description" content="Esta é página para entrar em contato com a empresa Rafting Selvagem">
+    <meta name="author" content="Adria Nara da Silva">
+    <link rel="stylesheet" href="estilos/rafting.css">
+</head>
+<body>
+    <header>
+        <img src="imagens/logo.png" alt="Logotipo da empresa">
+        <nav>
+            <ul>
+              <li><a href="index.html">Página Inicial</a></li>
+              <li><a href="sobre.html">Sobre Nós</a></li>
+              <li><a href="passeios.html">Passeios</a></li>
+              <li><a href="contato.html">Fale Conosco</a></li>
+            </ul>
+        </nav> 
+    </header>
+    <main>
+        <div class="contato-empresa">
+            <h1>Rafting Excursões</h1>
+            <p>Rua Junco Verde Manaus, Amazonas +55 92 99999-9999 rafting@excursoes.com.br</p>
+        </div> 
+        <div class="estrutura">
+            <div class="mapa">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d63744.48128131739!2d-59.995622163591136!3d-3.0866462794662115!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1spt-PT!2sbr!4v1785592592066!5m2!1spt-PT!2sbr" width="600" height="450" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>
+            </div>
+            <div class="box-formulario">
+                <form>
+                    <div class="form-group">
+                       <label for="nome">Nome:</label>
+                       <input type="text" id="nome" name="nome" placeholder="Digite aqui">
+                    </div>  
+                    <div class="form-group">
+                       <label for="nome">E-mail:</label>
+                       <input type="email" id="email" name="email" placeholder="Digite aqui"> 
+                    </div>
+                    <div class="radio-section">
+                        <div class="section-label">Propósito da<br>Mensagem</div>
+                        <div class="radio-options">
+                            <label class="radio-option">
+                            <input type="radio" id="radio-1"  name="proposito" value="duvida_geral">
+                            Dúvida Geral
+                            </label>
+                            <label class="radio-option">
+                            <input type="radio" id="radio-2" name="proposito" value="pergunta_reserva">
+                            Pergunta sobre Reserva
+                            </label>
+                            <label class="radio-option">
+                            <input type="radio" id="radio-3" name="proposito" value="sugestao">
+                            Sugestão
+                            </label>
+                        </div>
+                    </div>
+   
+                   <div class="textarea-group">
+                       <label for="mensagem">Mensagem</label>
+                        <textarea id="mensagem" name="mensagem" placeholder="Digite aqui"></textarea>
+                    </div>
+
+                    
+                    <div class="checkbox-group">
+                        <input type="checkbox" id="newsletter" name="newsletter">
+                        <label for="newsletter">Por favor, me inscreva na newsletter mensal</label>
+                    </div>
+                    <button type="submit" class="submit-button">Entrar em Contato!</button>
+                </form>
+            </div>
+        </div>   
+        <section class="folder1">
+                <h2>A aventura está te esperando!</h2>
+                <div class="folder1-perfis">
+                   <figure> 
+                      <img src="imagens/perfil1.jpg" alt="Perfil do funcionário-1">
+                       <figcaption>Perfil do Funcionário</figcaption>
+                    </figure>   
+                    <figure>
+                      <img src="imagens/perfil2.jpg" alt="Perfil do funcionário-2">
+                      <figcaption>Perfil do Funcionário</figcaption>
+                    </figure>   
+                    <figure>
+                      <img src="imagens/perfil3.jpg" alt="Perfil do funcionário-3">
+                      <figcaption>Perfil do Funcionário</figcaption>
+                    </figure>   
+                </div>
+        </section> 
+    </main>
+    <footer>
+        <p>&copy; 2026 Rafting Excursões Adria Silva</p>
+        <nav class="redes-sociais">
+            <a><img src="imagens/facebook.png" alt="ícone do facebook"></a>
+            <a><img src="imagens/instagram.png" alt="ícone do instagram"></a>
+            <a><img src="imagens/linkedin.png" alt="ícone do linkedin"></a>
+
+        </nav>
+
+    </footer>
+    
+</body>
+</html>
