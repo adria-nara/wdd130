@@ -220,10 +220,6 @@ footer img {
 
 /* CSS - Fale Conosco */
 
- {
-  border: 1px solid var(--cor-secundaria);
-}
-
 .contato-empresa {
   display: grid;
   grid-template-rows: 60px 60px;
@@ -398,7 +394,7 @@ footer img {
 }
 
 .folder1-perfis img {
-  width: 100px;
+  width: 1px;
   justify-content: space-between;
   align-items: center;
   margin-left: 10px;
