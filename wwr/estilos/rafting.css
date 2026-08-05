@@ -394,7 +394,8 @@ footer img {
 }
 
 .folder1-perfis img {
-  width: 1px;
+  width: 100px;
+  height: 120px;
   justify-content: space-between;
   align-items: center;
   margin-left: 10px;
